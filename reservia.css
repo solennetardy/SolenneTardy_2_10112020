@@ -1,0 +1,258 @@
+@font-face
+{
+    font-family: 'Raleway';
+    src: url(Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+li
+{
+    font-family: 'Raleway';
+    list-style: none;
+}
+
+ul
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+h3
+{
+    font-weight: bold;
+    font-size: 1,5em;
+    font-family: 'Raleway';
+    margin: 10px;
+}
+
+h4
+{
+    font-weight: bold;
+    font-size: 1,3em;
+    font-family: 'Raleway';
+    margin: 5px;
+}
+
+h5
+{
+    font-weight: normal;
+    font-size: 1em;
+    font-family: 'Raleway';
+    margin: 3px;
+}
+
+#menu a
+{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+
+}
+
+#menu a:hover
+{
+    border-top: 2px #0065fc solid;
+    color: #0065fc;
+}
+
+#menu
+{
+    font-family: Raleway-SemiBold;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 17px;
+}
+
+#inscrire a
+{
+    color: #0065fc;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icone
+{
+    background-color:#F2F2F2;
+    border:#F2F2F2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+}
+
+input
+{
+    border-color: #F2F2F2;
+    box-shadow: none;
+}
+
+.boutonrechercher
+{
+    background-color: #0065fc;
+    color: white;
+    border: grey;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+}
+
+#local
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#filtres
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+#filtres li
+{
+    vertical-align: bottom;
+    padding: 5px;
+    padding-top: 10px;
+    margin: 15px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    border-color:grey;
+}
+
+#filtres ul
+{
+    padding: 0px;
+    margin: 0px;
+    padding-inline-start: 0px;
+}
+
+#lignefiltres
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+#filtres a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#filtres a:hover
+{
+    text-decoration: underline;
+}
+
+#filtres li i
+{
+    padding: 10px;
+    color: #0065fc;
+    background-color: lightsteelblue;
+    border-radius: 80px;
+}
+
+#info
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#bulleinfo
+{
+    border: 2px #F2F2F2 solid;
+    border-radius: 40px;
+    padding: 10px;
+    color: blue;
+}
+
+.hebergementsmarseille
+{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+    height: auto;
+}
+
+#lespopulaires
+{
+    background-color:grey;
+    width: 200px;
+    height: auto;
+}
+
+.medium
+{
+    background-color: white;
+    border: 2px white solid;
+    border-radius: 20px;
+    width: 130px;
+    margin: 0px;
+    margin-right: 0px;
+}
+
+.medium .description
+{
+    padding-left: 10px;
+}
+
+.medium img
+{
+    height: auto;
+    width: 120px;
+}
+
+.tousmedium
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.small
+{
+    background-color: white;
+    border: 2px white solid;
+    border-radius: 20px;
+}
+
+.small img
+{
+    height: auto;
+    width: 100px;
+}
+
+.bluestars
+{
+    color: #0065fc;
+}
+
+.greystars
+{
+    color: lightgrey;
+}
+
+.stars
+{
+    display: flex;
+}
+
+#touslesherbergements
+{
+    display: flex;
+    flex-direction: row;
+}
