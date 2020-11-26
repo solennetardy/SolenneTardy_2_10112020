@@ -1,0 +1,100 @@
+
+#menu
+{
+    flex-wrap: wrap;
+    border-bottom: 2px #F2F2F2 solid;
+}
+
+#inscrire :nth-child(3) 
+{ 
+    order: 1; 
+}
+
+#inscrire a
+{
+    font-weight: bold;
+}
+
+#menu a:hover
+{
+    border-bottom: 2px #0065fc solid;
+    color: #0065fc;
+}
+
+#filtres
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#tousleshebergements
+{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.hebergementsmarseille
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0%;
+    background-color: transparent;
+    width: 100%;
+}
+
+.tousmediums
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+}
+.medium
+{
+    width: 95%;
+}
+
+.lespopulaires
+{
+    border-radius: 0%;
+    width: 100%;
+}
+
+.toussmalls
+{
+    width: 90%;
+}
+
+.small
+{
+    width: 95%;
+}
+
+#activites
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer
+{
+    flex-direction: column;
+}
+
+#apropos
+{
+    width: 100%;
+}
+
+#noshebergements
+{
+    width: 100%;
+}
+
+#assistance
+{
+    width: 100%;
+}
