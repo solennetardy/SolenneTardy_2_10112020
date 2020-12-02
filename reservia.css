@@ -62,6 +62,14 @@ nav
     padding: 20px;
 }
 
+nav #inscrire
+{
+    color: #0065fc;
+    padding-top: 12px;
+    font-family: 'Ralewaynormal';
+    font-weight: bolder;
+}
+
 nav #menu
 {
     font-family: 'Ralewaynormal';
@@ -81,13 +89,6 @@ nav a:hover
     border-top: 2px #0065fc solid;
     color: #0065fc;
     padding-top: 15px;
-}
-
-nav #inscrire
-{
-    color: #0065fc;
-    padding-top: 12px;
-    font-weight: bold;
 }
 
 header
@@ -342,6 +343,7 @@ input::placeholder
 .stars
 {
     display: flex;
+    margin-bottom: 2%;
 }
 
 .toussmalls .stars
