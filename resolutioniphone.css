@@ -64,6 +64,7 @@ nav #inscrire
     border-radius: 0%;
     background-color: transparent;
     width: 90%;
+    box-sizing: content-box;
 }
 
 .tousmediums
@@ -88,7 +89,14 @@ nav #inscrire
 .lespopulaires
 {
     border-radius: 0%;
-    width: 90%;
+    width: 100%;
+    padding-right: 0%;
+    box-sizing: content-box;
+}
+
+.lespopulaires h3
+{
+    padding-right: 10%;
 }
 
 .toussmalls
