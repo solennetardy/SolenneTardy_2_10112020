@@ -16,6 +16,15 @@
     src: url(Raleway/Raleway-VariableFont_wght.ttf);
 }
 
+.desktop
+{
+    display: inline;
+}
+
+.mobile
+{
+    display: none;
+}
 
 h3
 {
@@ -53,19 +62,18 @@ a
 nav
 {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    font-family: 'Ralewaynormal';
+    justify-content: flex-end;
     font-size: 0.9em;
-    margin-top: 17px;
     color: #0065fc;
-    padding: 20px;
+    width: 100%;
 }
 
 nav #inscrire
 {
     color: #0065fc;
     padding-top: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
     font-family: 'Ralewaynormal';
     font-weight: bolder;
 }
@@ -79,9 +87,10 @@ nav #menu
     color: black;
 }
 
-#menu li
+#menu a
 {
-    padding-right: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 nav a:hover
@@ -91,11 +100,13 @@ nav a:hover
     padding-top: 15px;
 }
 
-header
+#premierheader
 {
     display: flex;
     justify-content: space-between;
-    margin-left: 3%;
+    background-image: url("images/logo/Reservia.svg");
+    background-repeat: no-repeat;
+    background-position: 3% 3%; 
 }
 
 #recherche
@@ -134,7 +145,7 @@ input::placeholder
 {
     color: black;
     font-family: 'RalewayBold';
-    padding-left: px;
+    padding-left: 5px;
 }
 
 .boutonrechercher
@@ -172,7 +183,7 @@ input::placeholder
 
 #lignefiltres h3
 {
-    padding-top: 0.2em;
+    padding-top: 0.5em;
 }
 
 #filtres li
@@ -193,6 +204,9 @@ input::placeholder
     background-color: #DEEBFF;
     border-radius: 80px;
     margin-right: 10px;
+    width: 14px;
+    height: 14px;
+    position: middle;
 }
 
 #filtres a:hover
@@ -212,15 +226,17 @@ input::placeholder
 
 #bulleinfo i
 {
-    border: 2px #F2F2F2 solid;
+    border: 1.5px #F2F2F2 solid;
     border-radius: 80px;
-    padding: 10px 12px 10px 12px;
+    padding: 6px 9px;
     color: blue;
+    font-size: 0.75em;
 }
 
 #info p
 {
-    padding-left: 10px;
+    margin-top: auto;
+    padding: 5px 5px 0px 10px;
 }
 
 #tousleshebergements
@@ -278,6 +294,7 @@ input::placeholder
 .description
 {
     padding-left: 10px;
+    padding-top: 7px;
 }
 
 .medium img
@@ -343,7 +360,8 @@ input::placeholder
 .stars
 {
     display: flex;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
+    vertical-align: bottom;
 }
 
 .toussmalls .stars
