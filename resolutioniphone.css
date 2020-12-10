@@ -42,7 +42,6 @@ nav #inscrire
 
 #menu
 {
-    border-bottom: 2px #F2F2F2 solid;
     margin-top: 7%;
     padding-left: 0px;
 }
@@ -55,6 +54,7 @@ nav #inscrire
 #menu li
 {
     text-align: center;
+    border-bottom: 2px #F2F2F2 solid;
     width: 100%;
     padding-bottom: 10px;
 }
@@ -74,17 +74,21 @@ nav #inscrire
     margin-left: 3%;
 }
 
+form
+{
+    border-top: 2px #F2F2F2 solid;
+    border-bottom: 2px #F2F2F2 solid;
+}
+
 input
 {
-    border-right: none;
+    border: none;
 }
 
 .boutonrechercher
 {
-    border-radius: 10px;
-    padding: 10px;
-    width: 40px;
-    height: 40px;
+border-radius: 10px;
+padding: 10px;
 }
 
 #lignefiltres

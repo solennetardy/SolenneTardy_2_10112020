@@ -125,18 +125,26 @@ nav a:hover
     margin-bottom: 5px;
 }
 
+form
+{
+    margin-top: 10px;
+    display: flex;
+    border-radius: 17px;
+}
+
 .icone
 {
     background-color:#F2F2F2;
-    border:#F2F2F2;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    padding: 10px;
+    padding: 14px 14px;
 }
 
 input
 {
-    border: 2px solid #F2F2F2;
+    border-style: hidden;
+    border-top: 2px #F2F2F2 solid;
+    border-bottom: 2px #F2F2F2 solid;
     box-shadow: none;
     appearance: none;
 }
@@ -145,17 +153,17 @@ input::placeholder
 {
     color: black;
     font-family: 'RalewayBold';
-    padding-left: 5px;
+    padding-left: 7px;
 }
 
 .boutonrechercher
 {
     background-color: #0065fc;
     color: white;
-    border: #f2f2f2;
+    border: 6px #0065fc solid;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    padding: 10px;
+    padding: 1px;
 }
 
 #local
@@ -204,9 +212,9 @@ input::placeholder
     background-color: #DEEBFF;
     border-radius: 80px;
     margin-right: 10px;
-    width: 14px;
-    height: 14px;
-    position: middle;
+    width: 15px;
+    height: 15px;
+    position: center;
 }
 
 #filtres a:hover
@@ -295,6 +303,10 @@ input::placeholder
 {
     padding-left: 10px;
     padding-top: 7px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .medium img
@@ -311,8 +323,6 @@ input::placeholder
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: ; 
-    height: ; 
 }
 
 .toussmalls
@@ -362,11 +372,6 @@ input::placeholder
     display: flex;
     margin-bottom: 3%;
     vertical-align: bottom;
-}
-
-.toussmalls .stars
-{
-    margin-top: 30%;
 }
 
 #activitesamarseille

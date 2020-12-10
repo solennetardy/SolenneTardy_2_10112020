@@ -29,18 +29,19 @@
             </h5>
         </section>
         
-        <section id="local">
+        <div id="local">
+            <form action="#" method="POST">
             <div class="icone"> 
                 <i class="fas fa-map-marker-alt"></i>
             </div>
             <input type="text" placeholder="Marseille, France">
             <button class="boutonrechercher">
                 <span class="desktop">Rechercher</span> <span class="mobile"> <i class="fas fa-search"></i> </span>
-            
             </button>
-        </section>
+            </form>
+        </div>
         
-        <section id="lignefiltres">
+        <div id="lignefiltres">
             <h3>Filtres</h3>
             <ul id="filtres">
                 <li><i class="fas fa-money-bill-wave"></i><a href="#">Economique</a></li>
@@ -48,21 +49,21 @@
                 <li><i class="fas fa-heart"></i><a href="#">Romantique</a></li>
                 <li><i class="fas fa-dog"></i><a href="#">Animaux autorisés</a></li>
             </ul>
-        </section>
+        </div>
         
-        <section id="info">
+        <div id="info">
             <div id="bulleinfo">
                 <i class="fas fa-info"></i> 
             </div>
             <p>
             Plus de 500 logements sont disponibles dans cette ville
             </p>
-        </section>
+        </div>
     </header>
         
     <main>
-        <article id="tousleshebergements">
-            <section class="hebergementsmarseille">
+        <div id="tousleshebergements">
+            <article class="hebergementsmarseille">
                 <h3>Hébergements à Marseille</h3>
                 <div class="tousmediums">
                     <div class="medium">
@@ -165,9 +166,9 @@
                 <h4 id="plus">
                     Afficher plus
                 </h4>    
-            </section>
+            </article>
 
-            <section class="lespopulaires">
+            <article class="lespopulaires">
                 <h3>Les plus populaires <i class="fas fa-chart-line"></i></h3>
                 <section class="toussmalls">
                     <div class="small">
@@ -176,8 +177,10 @@
                                 <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Le Soleil du matin">
                             </div>
                             <div class="description">
-                                <h4>Hôtel Le soleil du matin</h4>
-                                <h5> Nuit à partir de 128€</h5>
+                                <div>
+                                    <h4>Hôtel Le soleil du matin</h4>
+                                    <h5> Nuit à partir de 128€</h5>
+                                </div>
                                 <div class="stars">
                                     <i class="fas fa-star bluestars"></i>
                                     <i class="fas fa-star bluestars"></i>
@@ -194,8 +197,10 @@
                                 <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Au coeur de l'eau">
                             </div>
                             <div class="description">
-                                <h4>Au coeur de l'eau<br>Chambres d'hôtes</h4>
-                                <h5>Nuit à partir de 71€</h5>
+                                <div>
+                                    <h4>Au coeur de l'eau<br>Chambres d'hôtes</h4>
+                                    <h5>Nuit à partir de 71€</h5>
+                                </div>
                                 <div class="stars">
                                     <i class="fas fa-star bluestars"></i>
                                     <i class="fas fa-star bluestars"></i>
@@ -212,8 +217,10 @@
                                 <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Tout bleu et blanc">
                             </div>
                             <div class="description">
-                                <h4>Hôtel Tout bleu et blanc</h4>
-                                <h5>Nuit à partir de 68€</h5>
+                                <div>
+                                    <h4>Hôtel Tout bleu et blanc</h4>
+                                    <h5>Nuit à partir de 68€</h5>
+                                </div>    
                                 <div class="stars">
                                         <i class="fas fa-star bluestars"></i>
                                         <i class="fas fa-star bluestars"></i>
@@ -225,8 +232,8 @@
                         </a>
                     </div>
                 </section>    
-            </section>
-        </article>
+            </article>
+        </div>
         <article id="activitesamarseille">
             <h3>Activités à Marseille</h3>
             <section id="activites">    
@@ -292,9 +299,9 @@
             </h4>
             <h5>
                 Fonctionnement du site
-            </br>
+            <br>
                 Conditions générales de vente
-            </br>
+            <br>
                 Données de confidentialité
             </h5>
         </div>
@@ -304,7 +311,7 @@
             </h4>
             <h5>
                 Charte qualité
-            </br>
+            <br>
                 Soumettre votre hôtel
             </h5>
         </div>
@@ -314,7 +321,7 @@
             </h4>
             <h5>
                 Centre d'aide
-            </br>
+            <br>
                 Nous contacter
             </h5>
         </div>
