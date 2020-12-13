@@ -16,6 +16,12 @@
     src: url(Raleway/Raleway-VariableFont_wght.ttf);
 }
 
+body
+{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .desktop
 {
     display: inline;
